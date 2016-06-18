@@ -1,7 +1,7 @@
 # Importer.js
 Importer.js is a library for simple imports of .js files.
 
-`v1.0`
+`v1.1`
 
 ##Why Importer.js?
 Because Importer.js is sweet. Look at this adorable example:
