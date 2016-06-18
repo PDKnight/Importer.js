@@ -38,7 +38,6 @@ var Importer = {
                 && typeof last == 'function')
         {
             endFn = last;
-            console.log((as instanceof Array), as);
             as.splice(-1, 1);
         }
         else if (as.length > 1
