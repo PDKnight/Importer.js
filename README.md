@@ -6,7 +6,7 @@ Importer.js is a library for simple imports of .js files.
 ##Why Importer.js?
 Because Importer.js is sweet. Look at this adorable example:
 ```javascript
-Importer.import('one.js', 'two.js');
+Importer.add('one.js', 'two.js');
 ```
 
 It's more simple than you can expect.
@@ -16,7 +16,7 @@ It's more simple than you can expect.
 ####Importer.version
 Returns current version of **Importer.js**.
 
-####Importer.import(url ... urls [, endFn [, skipOnError]])
+####Importer.add(url ... urls [, endFn [, skipOnError]])
 Prepares Import.
 
 * **url ... urls**:
